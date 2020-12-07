@@ -58,7 +58,7 @@ $(function() {
                 // console.log(res.token);
                 // location.href = 'www.4399.com';
                 localStorage.setItem('token', res.token);
-                // location.href = '/index.html'
+                location.href = '/index.html'
             }
         })
     });
